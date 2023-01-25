@@ -1,15 +1,17 @@
-import React from 'react';
 import { Route, Routes } from 'react-router-dom';
+
+import { LoginPage } from '../auth';
+import { HeroesRoutes } from '../heroes';
 
 const AppRouter = () => {
 	return (
 		<>
 			<Routes>
-				<Route path="/" element={<Home />} />
-				<Route path="about" element={<About />} />
+				<Route path="login" element={<LoginPage />} />
+				<Route path="/*" element={<HeroesRoutes />} />
 			</Routes>
 		</>
 	);
 };
 
-export default AppRouters;
+export default AppRouter;

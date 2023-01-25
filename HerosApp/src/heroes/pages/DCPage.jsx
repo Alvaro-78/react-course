@@ -1,6 +1,6 @@
 import React from 'react';
 
-const DCPage = () => {
+export const DCPage = () => {
 	return (
 		<>
 			<h1>DC Page</h1>
@@ -8,4 +8,3 @@ const DCPage = () => {
 	);
 };
 
-export default DCPage;

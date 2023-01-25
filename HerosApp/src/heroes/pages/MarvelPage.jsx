@@ -1,6 +1,6 @@
 import React from 'react';
 
-const MarvelPage = () => {
+export const MarvelPage = () => {
 	return (
 		<>
 			<h1>Marvel Page</h1>
@@ -8,4 +8,3 @@ const MarvelPage = () => {
 	);
 };
 
-export default MarvelPage;
