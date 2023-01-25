@@ -7,7 +7,7 @@ const HeroesApp = () => {
 			<div className="d-flex flex-column">
 				<AppRouter></AppRouter>
 			</div>
-		</>
+		</> 
 	);
 };
 
